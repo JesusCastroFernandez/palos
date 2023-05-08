@@ -1,0 +1,16 @@
+public class EnumeradoBaraja {
+    // Definir el enumerado con los nombres de los palos
+    public enum Palo {
+        OROS,
+        COPAS,
+        BASTOS,
+        ESPADAS
+    }
+
+    public static void main(String[] args) {
+        // Mostrar cada valor del enumerado
+        for (Palo palo : Palo.values()) {
+            System.out.println(palo);
+        }
+    }
+}
